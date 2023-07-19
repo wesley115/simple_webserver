@@ -1,0 +1,92 @@
+[2023-06-08 12:17:25.256009]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsing config file
+[2023-06-08 12:17:25.294078]:[0x00007fc895dac740]:[0x00000482]:[trace]: Config file parsed
+[2023-06-08 12:17:25.296606]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler EchoHandler for path: /echo
+[2023-06-08 12:17:25.298338]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched echo handler factory at location: /echo
+[2023-06-08 12:17:25.300086]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler StaticHandler for path: /static1
+[2023-06-08 12:17:25.302198]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched static handler factory at location: /static1
+[2023-06-08 12:17:25.304285]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler StaticHandler for path: /static2
+[2023-06-08 12:17:25.305634]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched static handler factory at location: /static2
+[2023-06-08 12:17:25.307163]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler CRUDHandler for path: /api
+[2023-06-08 12:17:25.308615]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched crud handler factory at location: /api
+[2023-06-08 12:17:25.310472]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler ErrorHandler for path: /
+[2023-06-08 12:17:25.311964]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched 404 handler factory at location: /
+[2023-06-08 12:17:25.313534]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler HealthHandler for path: /health
+[2023-06-08 12:17:25.315305]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched health handler factory at location: /health
+[2023-06-08 12:17:25.316726]:[0x00007fc895dac740]:[0x00000482]:[trace]: Parsed handler SleepHandler for path: /sleep
+[2023-06-08 12:17:25.318034]:[0x00007fc895dac740]:[0x00000482]:[trace]: Dispatched sleep handler factory at location: /sleep
+[2023-06-08 12:17:25.319762]:[0x00007fc895dac740]:[0x00000482]:[debug]: Server started at port 80
+[2023-06-08 12:18:15.489805]:[0x00007fc8945a8640]:[0x00000482]:[trace]: -Base:
+POST /meme/create HTTP/1.1
+Host: localhost
+User-Agent: curl/7.81.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 75
+
+- IP Address: 127.0.0.1
+[2023-06-08 12:18:15.492279]:[0x00007fc8945a8640]:[0x00000482]:[info]: [IPMetrics] 127.0.0.1
+[2023-06-08 12:18:15.494246]:[0x00007fc8945a8640]:[0x00000482]:[info]: [RequestPathMetrics] /meme/create
+[2023-06-08 12:18:15.496000]:[0x00007fc8945a8640]:[0x00000482]:[debug]: 404 Request Handler: /meme/create
+[2023-06-08 12:18:15.497876]:[0x00007fc8945a8640]:[0x00000482]:[info]: [HandlerMetrics] 404_handler
+[2023-06-08 12:18:15.500664]:[0x00007fc8945a8640]:[0x00000482]:[info]: [ResponseMetrics] 404
+[2023-06-08 12:18:15.502853]:[0x00007fc8945a8640]:[0x00000482]:[trace]: session::handle_read: async_write
+[2023-06-08 12:18:30.134615]:[0x00007fc894da9640]:[0x00000482]:[trace]: -Base:
+POST /meme/create HTTP/1.1
+Host: localhost
+User-Agent: curl/7.81.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 75
+
+- IP Address: 127.0.0.1
+[2023-06-08 12:18:30.137259]:[0x00007fc894da9640]:[0x00000482]:[info]: [IPMetrics] 127.0.0.1
+[2023-06-08 12:18:30.138657]:[0x00007fc894da9640]:[0x00000482]:[info]: [RequestPathMetrics] /meme/create
+[2023-06-08 12:18:30.140212]:[0x00007fc894da9640]:[0x00000482]:[debug]: 404 Request Handler: /meme/create
+[2023-06-08 12:18:30.141978]:[0x00007fc894da9640]:[0x00000482]:[info]: [HandlerMetrics] 404_handler
+[2023-06-08 12:18:30.143608]:[0x00007fc894da9640]:[0x00000482]:[info]: [ResponseMetrics] 404
+[2023-06-08 12:18:30.145177]:[0x00007fc894da9640]:[0x00000482]:[trace]: session::handle_read: async_write
+[2023-06-08 12:18:57.249625]:[0x00007fc895dab640]:[0x00000482]:[trace]: -Base:
+POST /meme/create HTTP/1.1
+Host: localhost
+User-Agent: curl/7.81.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 75
+
+- IP Address: 127.0.0.1
+[2023-06-08 12:18:57.251989]:[0x00007fc895dab640]:[0x00000482]:[info]: [IPMetrics] 127.0.0.1
+[2023-06-08 12:18:57.254077]:[0x00007fc895dab640]:[0x00000482]:[info]: [RequestPathMetrics] /meme/create
+[2023-06-08 12:18:57.255715]:[0x00007fc895dab640]:[0x00000482]:[debug]: 404 Request Handler: /meme/create
+[2023-06-08 12:18:57.257653]:[0x00007fc895dab640]:[0x00000482]:[info]: [HandlerMetrics] 404_handler
+[2023-06-08 12:18:57.259521]:[0x00007fc895dab640]:[0x00000482]:[info]: [ResponseMetrics] 404
+[2023-06-08 12:18:57.261178]:[0x00007fc895dab640]:[0x00000482]:[trace]: session::handle_read: async_write
+[2023-06-08 12:19:26.702599]:[0x00007fc894da9640]:[0x00000482]:[trace]: -Base:
+POST /meme/create HTTP/1.1
+Host: localhost
+User-Agent: curl/7.81.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 75
+
+- IP Address: 127.0.0.1
+[2023-06-08 12:19:26.705066]:[0x00007fc894da9640]:[0x00000482]:[info]: [IPMetrics] 127.0.0.1
+[2023-06-08 12:19:26.706675]:[0x00007fc894da9640]:[0x00000482]:[info]: [RequestPathMetrics] /meme/create
+[2023-06-08 12:19:26.708751]:[0x00007fc894da9640]:[0x00000482]:[debug]: 404 Request Handler: /meme/create
+[2023-06-08 12:19:26.711375]:[0x00007fc894da9640]:[0x00000482]:[info]: [HandlerMetrics] 404_handler
+[2023-06-08 12:19:26.713920]:[0x00007fc894da9640]:[0x00000482]:[info]: [ResponseMetrics] 404
+[2023-06-08 12:19:26.716005]:[0x00007fc894da9640]:[0x00000482]:[trace]: session::handle_read: async_write
+[2023-06-08 12:19:29.808174]:[0x00007fc8945a8640]:[0x00000482]:[trace]: -Base:
+POST /meme/create HTTP/1.1
+Host: localhost
+User-Agent: curl/7.81.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 75
+
+- IP Address: 127.0.0.1
+[2023-06-08 12:19:29.810873]:[0x00007fc8945a8640]:[0x00000482]:[info]: [IPMetrics] 127.0.0.1
+[2023-06-08 12:19:29.813937]:[0x00007fc8945a8640]:[0x00000482]:[info]: [RequestPathMetrics] /meme/create
+[2023-06-08 12:19:29.817749]:[0x00007fc8945a8640]:[0x00000482]:[debug]: 404 Request Handler: /meme/create
+[2023-06-08 12:19:29.818872]:[0x00007fc8945a8640]:[0x00000482]:[info]: [HandlerMetrics] 404_handler
+[2023-06-08 12:19:29.820545]:[0x00007fc8945a8640]:[0x00000482]:[info]: [ResponseMetrics] 404
+[2023-06-08 12:19:29.823172]:[0x00007fc8945a8640]:[0x00000482]:[trace]: session::handle_read: async_write

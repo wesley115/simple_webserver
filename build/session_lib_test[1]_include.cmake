@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/build/session_lib_test[1]_tests.cmake")
+  include("/usr/src/projects/build/session_lib_test[1]_tests.cmake")
+else()
+  add_test(session_lib_test_NOT_BUILT session_lib_test_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/build/reply_lib_test[1]_tests.cmake")
+  include("/usr/src/projects/build/reply_lib_test[1]_tests.cmake")
+else()
+  add_test(reply_lib_test_NOT_BUILT reply_lib_test_NOT_BUILT)
+endif()

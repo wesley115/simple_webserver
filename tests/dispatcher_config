@@ -1,0 +1,37 @@
+port 80;
+
+location /echo/// EchoHandler { # echo folder defined with trailing backslashes that should be ignored
+
+}
+
+location /health/// HealthHandler { # echo folder defined with trailing backslashes that should be ignored
+
+}
+
+location /static1 StaticHandler {    
+    root ../public/folder1///; # absolute folder path with trailing backslashes
+}
+
+location /static2 StaticHandler {
+    root ../public/folder2//; # absolute folder path
+}
+
+location / ErrorHandler {
+
+}
+
+location /sleep SleepHandler {
+
+}
+location /api CRUDHandler{
+    data_path ../public/crud///; # absolute folder path
+}
+
+location /meme MemeHandler{
+    data_path ./integration_tests/public/meme;
+
+}
+location /sleep SleepHandler {
+
+}
+

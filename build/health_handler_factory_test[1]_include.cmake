@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/build/health_handler_factory_test[1]_tests.cmake")
+  include("/usr/src/projects/build/health_handler_factory_test[1]_tests.cmake")
+else()
+  add_test(health_handler_factory_test_NOT_BUILT health_handler_factory_test_NOT_BUILT)
+endif()

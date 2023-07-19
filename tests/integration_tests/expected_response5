@@ -1,0 +1,8 @@
+HTTP/1.1 404 Not Found
+Connection: close
+Server: Beast
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Length: 38
+
+Could not resolve ID -- ID not found.
