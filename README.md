@@ -1,4 +1,4 @@
-# CS130 Web Server
+# Web Server
 
 ## 1. Source Code Layout
 
