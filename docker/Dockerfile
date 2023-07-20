@@ -3,8 +3,8 @@
 FROM projects:base as builder
 
 # Share work directory
-COPY . /usr/src/project
-WORKDIR /usr/src/project/build
+COPY . /usr/src/projects
+WORKDIR /usr/src/projects/build
 
 # Build and test
 RUN cmake ..
@@ -32,11 +32,11 @@ RUN ctest --output-on_failure
 FROM ubuntu:jammy as deploy
 
 #Copy server output binary to "."
-COPY --from=builder /usr/src/project/build/bin/server .
-COPY --from=builder /usr/src/project/conf/server.conf .
+COPY --from=builder /usr/src/projects/build/bin/server .
+COPY --from=builder /usr/src/projects/conf/server.conf .
 
 # Copy static files -- change
-COPY --from=builder /usr/src/project/public ./public
+COPY --from=builder /usr/src/projects/public ./public
 # COPY --from=builder /usr/src/project/folder2 ./folder2
 
 # Expose some port(s)

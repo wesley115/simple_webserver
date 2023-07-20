@@ -1,5 +1,0 @@
-if(EXISTS "/usr/src/projects/build_coverage/config_parser_lib_test[1]_tests.cmake")
-  include("/usr/src/projects/build_coverage/config_parser_lib_test[1]_tests.cmake")
-else()
-  add_test(config_parser_lib_test_NOT_BUILT config_parser_lib_test_NOT_BUILT)
-endif()

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhttp_lib.a CMakeFiles/http_lib.dir/src/http/mime_types.cpp.o
-/usr/bin/ranlib libhttp_lib.a

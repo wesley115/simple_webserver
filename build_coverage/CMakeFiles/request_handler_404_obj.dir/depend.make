@@ -1,2 +1,0 @@
-# Empty dependencies file for request_handler_404_obj.
-# This may be replaced when dependencies are built.

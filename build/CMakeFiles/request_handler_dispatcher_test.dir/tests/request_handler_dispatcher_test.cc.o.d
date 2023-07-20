@@ -172,6 +172,10 @@ CMakeFiles/request_handler_dispatcher_test.dir/tests/request_handler_dispatcher_
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/unordered_map.h \
  /usr/src/projects/include/request_handler.h \
  /usr/src/projects/include/./config_parser.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_vector.h \
@@ -209,10 +213,6 @@ CMakeFiles/request_handler_dispatcher_test.dir/tests/request_handler_dispatcher_
  /usr/include/boost/system/detail/config.hpp \
  /usr/include/boost/cstdint.hpp /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -1494,6 +1494,24 @@ CMakeFiles/request_handler_dispatcher_test.dir/tests/request_handler_dispatcher_
  /usr/src/projects/include/nlohmann/ordered_map.hpp \
  /usr/src/projects/include/nlohmann/detail/macro_unscope.hpp \
  /usr/src/projects/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ /usr/src/projects/include/request_handler/meme_handler_factory.h \
+ /usr/src/projects/include/request_handler/request_handler_meme.h \
+ /usr/include/c++/11/regex /usr/include/c++/11/bitset \
+ /usr/include/c++/11/stack /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc \
+ /usr/include/c++/11/shared_mutex \
  /usr/src/googletest/googletest/include/gtest/gtest.h \
  /usr/src/googletest/googletest/include/gtest/internal/gtest-internal.h \
  /usr/src/googletest/googletest/include/gtest/internal/gtest-port.h \

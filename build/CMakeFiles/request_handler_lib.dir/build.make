@@ -81,14 +81,14 @@ request_handler_lib_EXTERNAL_OBJECTS = \
 "/usr/src/projects/build/CMakeFiles/crud_handler_factory_obj.dir/src/request_handler/crud_handler_factory.cc.o" \
 "/usr/src/projects/build/CMakeFiles/sleep_handler_factory_obj.dir/src/request_handler/sleep_handler_factory.cc.o" \
 "/usr/src/projects/build/CMakeFiles/health_handler_factory_obj.dir/src/request_handler/health_handler_factory.cc.o" \
-"/usr/src/projects/build/CMakeFiles/meme_create_handler_factory_obj.dir/src/request_handler/meme_create_handler_factory.cc.o" \
+"/usr/src/projects/build/CMakeFiles/meme_handler_factory_obj.dir/src/request_handler/meme_handler_factory.cc.o" \
 "/usr/src/projects/build/CMakeFiles/request_handler_echo_obj.dir/src/request_handler/request_handler_echo.cc.o" \
 "/usr/src/projects/build/CMakeFiles/request_handler_static_obj.dir/src/request_handler/request_handler_static.cc.o" \
 "/usr/src/projects/build/CMakeFiles/request_handler_404_obj.dir/src/request_handler/request_handler_404.cc.o" \
 "/usr/src/projects/build/CMakeFiles/request_handler_crud_obj.dir/src/request_handler/request_handler_crud.cc.o" \
 "/usr/src/projects/build/CMakeFiles/request_handler_health_obj.dir/src/request_handler/request_handler_health.cc.o" \
 "/usr/src/projects/build/CMakeFiles/request_handler_sleep_obj.dir/src/request_handler/request_handler_sleep.cc.o" \
-"/usr/src/projects/build/CMakeFiles/request_handler_meme_create_obj.dir/src/request_handler/request_handler_meme_create.cc.o"
+"/usr/src/projects/build/CMakeFiles/request_handler_meme_obj.dir/src/request_handler/request_handler_meme.cc.o"
 
 librequest_handler_lib.a: CMakeFiles/request_handler_dispatcher_obj.dir/src/request_handler_dispatcher.cc.o
 librequest_handler_lib.a: CMakeFiles/request_404_handler_factory_obj.dir/src/request_handler/request_404_handler_factory.cc.o
@@ -97,14 +97,14 @@ librequest_handler_lib.a: CMakeFiles/echo_handler_factory_obj.dir/src/request_ha
 librequest_handler_lib.a: CMakeFiles/crud_handler_factory_obj.dir/src/request_handler/crud_handler_factory.cc.o
 librequest_handler_lib.a: CMakeFiles/sleep_handler_factory_obj.dir/src/request_handler/sleep_handler_factory.cc.o
 librequest_handler_lib.a: CMakeFiles/health_handler_factory_obj.dir/src/request_handler/health_handler_factory.cc.o
-librequest_handler_lib.a: CMakeFiles/meme_create_handler_factory_obj.dir/src/request_handler/meme_create_handler_factory.cc.o
+librequest_handler_lib.a: CMakeFiles/meme_handler_factory_obj.dir/src/request_handler/meme_handler_factory.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_echo_obj.dir/src/request_handler/request_handler_echo.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_static_obj.dir/src/request_handler/request_handler_static.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_404_obj.dir/src/request_handler/request_handler_404.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_crud_obj.dir/src/request_handler/request_handler_crud.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_health_obj.dir/src/request_handler/request_handler_health.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_sleep_obj.dir/src/request_handler/request_handler_sleep.cc.o
-librequest_handler_lib.a: CMakeFiles/request_handler_meme_create_obj.dir/src/request_handler/request_handler_meme_create.cc.o
+librequest_handler_lib.a: CMakeFiles/request_handler_meme_obj.dir/src/request_handler/request_handler_meme.cc.o
 librequest_handler_lib.a: CMakeFiles/request_handler_lib.dir/build.make
 librequest_handler_lib.a: CMakeFiles/request_handler_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/src/projects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library librequest_handler_lib.a"

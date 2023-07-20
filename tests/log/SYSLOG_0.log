@@ -1,21 +1,5 @@
-[2023-06-10 02:30:39.728630]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler EchoHandler for path: /echo
-[2023-06-10 02:30:39.735389]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched echo handler factory at location: /echo
-[2023-06-10 02:30:39.735432]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler HealthHandler for path: /health
-[2023-06-10 02:30:39.735459]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched health handler factory at location: /health
-[2023-06-10 02:30:39.735483]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler StaticHandler for path: /static1
-[2023-06-10 02:30:39.735503]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched static handler factory at location: /static1
-[2023-06-10 02:30:39.735528]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler StaticHandler for path: /static2
-[2023-06-10 02:30:39.735553]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched static handler factory at location: /static2
-[2023-06-10 02:30:39.735579]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler ErrorHandler for path: /
-[2023-06-10 02:30:39.735604]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched 404 handler factory at location: /
-[2023-06-10 02:30:39.735630]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler SleepHandler for path: /sleep
-[2023-06-10 02:30:39.735658]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched sleep handler factory at location: /sleep
-[2023-06-10 02:30:39.735687]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler CRUDHandler for path: /api
-[2023-06-10 02:30:39.735727]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched crud handler factory at location: /api
-[2023-06-10 02:30:39.735751]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed handler MemeHandler for path: /meme
-[2023-06-10 02:30:39.735773]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Dispatched meme handler factory at location: /meme
-[2023-06-10 02:30:39.735804]:[0x00007f307cbe2740]:[0x000009a8]:[error]: Another handler exists at path: /sleep
-[2023-06-10 02:30:39.735909]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: Parsed Meme Handler data_path ./integration_tests/public/meme for location /meme
-[2023-06-10 02:30:39.736518]:[0x00007f307cbe2740]:[0x000009a8]:[trace]: --  meme create valid 
-[2023-06-10 02:30:39.736558]:[0x00007f307cbe2740]:[0x000009a8]:[info]: [HandlerMetrics] Meme_create_handler
-[2023-06-10 02:30:39.736617]:[0x00007f307cbe2740]:[0x000009a8]:[info]: [ResponseMetrics] 200
+[2023-07-20 01:14:56.844029]:[0x00007f7e83607740]:[0x00000a08]:[trace]: --  meme create valid 
+[2023-07-20 01:14:56.850997]:[0x00007f7e83607740]:[0x00000a08]:[info]: [HandlerMetrics] Meme_create_handler
+[2023-07-20 01:14:56.852622]:[0x00007f7e83607740]:[0x00000a08]:[info]: [ResponseMetrics] 200
+[2023-07-20 01:14:56.854519]:[0x00007f7e83607740]:[0x00000a08]:[info]: [HandlerMetrics] Meme_List_Handler
+[2023-07-20 01:14:56.856246]:[0x00007f7e83607740]:[0x00000a08]:[info]: [ResponseMetrics] 404

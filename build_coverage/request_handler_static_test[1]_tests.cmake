@@ -1,7 +1,0 @@
-add_test( RequestHandlerStaticTest.StaticNotFoundTest /usr/src/projects/build_coverage/bin/request_handler_static_test [==[--gtest_filter=RequestHandlerStaticTest.StaticNotFoundTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties( RequestHandlerStaticTest.StaticNotFoundTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( RequestHandlerStaticTest.StaticFoundTest /usr/src/projects/build_coverage/bin/request_handler_static_test [==[--gtest_filter=RequestHandlerStaticTest.StaticFoundTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties( RequestHandlerStaticTest.StaticFoundTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( RequestHandlerStaticTest.StaticNestedFoundTest /usr/src/projects/build_coverage/bin/request_handler_static_test [==[--gtest_filter=RequestHandlerStaticTest.StaticNestedFoundTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties( RequestHandlerStaticTest.StaticNestedFoundTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( request_handler_static_test_TESTS RequestHandlerStaticTest.StaticNotFoundTest RequestHandlerStaticTest.StaticFoundTest RequestHandlerStaticTest.StaticNestedFoundTest)

@@ -705,17 +705,17 @@ health_handler_factory_obj/fast:
 .PHONY : health_handler_factory_obj/fast
 
 #=============================================================================
-# Target rules for targets named meme_create_handler_factory_obj
+# Target rules for targets named meme_handler_factory_obj
 
 # Build rule for target.
-meme_create_handler_factory_obj: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 meme_create_handler_factory_obj
-.PHONY : meme_create_handler_factory_obj
+meme_handler_factory_obj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 meme_handler_factory_obj
+.PHONY : meme_handler_factory_obj
 
 # fast build rule for target.
-meme_create_handler_factory_obj/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_create_handler_factory_obj.dir/build.make CMakeFiles/meme_create_handler_factory_obj.dir/build
-.PHONY : meme_create_handler_factory_obj/fast
+meme_handler_factory_obj/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_obj.dir/build.make CMakeFiles/meme_handler_factory_obj.dir/build
+.PHONY : meme_handler_factory_obj/fast
 
 #=============================================================================
 # Target rules for targets named request_handler_echo_obj
@@ -796,17 +796,17 @@ request_handler_sleep_obj/fast:
 .PHONY : request_handler_sleep_obj/fast
 
 #=============================================================================
-# Target rules for targets named request_handler_meme_create_obj
+# Target rules for targets named request_handler_meme_obj
 
 # Build rule for target.
-request_handler_meme_create_obj: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 request_handler_meme_create_obj
-.PHONY : request_handler_meme_create_obj
+request_handler_meme_obj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 request_handler_meme_obj
+.PHONY : request_handler_meme_obj
 
 # fast build rule for target.
-request_handler_meme_create_obj/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_create_obj.dir/build.make CMakeFiles/request_handler_meme_create_obj.dir/build
-.PHONY : request_handler_meme_create_obj/fast
+request_handler_meme_obj/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_obj.dir/build.make CMakeFiles/request_handler_meme_obj.dir/build
+.PHONY : request_handler_meme_obj/fast
 
 #=============================================================================
 # Target rules for targets named request_handler_lib
@@ -898,6 +898,19 @@ static_handler_factory_test: cmake_check_build_system
 static_handler_factory_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_handler_factory_test.dir/build.make CMakeFiles/static_handler_factory_test.dir/build
 .PHONY : static_handler_factory_test/fast
+
+#=============================================================================
+# Target rules for targets named meme_handler_factory_test
+
+# Build rule for target.
+meme_handler_factory_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 meme_handler_factory_test
+.PHONY : meme_handler_factory_test
+
+# fast build rule for target.
+meme_handler_factory_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_test.dir/build.make CMakeFiles/meme_handler_factory_test.dir/build
+.PHONY : meme_handler_factory_test/fast
 
 #=============================================================================
 # Target rules for targets named request_handler_sleep_test
@@ -1002,6 +1015,19 @@ request_handler_health_test: cmake_check_build_system
 request_handler_health_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_health_test.dir/build.make CMakeFiles/request_handler_health_test.dir/build
 .PHONY : request_handler_health_test/fast
+
+#=============================================================================
+# Target rules for targets named request_handler_meme_test
+
+# Build rule for target.
+request_handler_meme_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 request_handler_meme_test
+.PHONY : request_handler_meme_test
+
+# fast build rule for target.
+request_handler_meme_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_test.dir/build.make CMakeFiles/request_handler_meme_test.dir/build
+.PHONY : request_handler_meme_test/fast
 
 #=============================================================================
 # Target rules for targets named reply_lib_test
@@ -1264,29 +1290,29 @@ src/request_handler/health_handler_factory.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_handler_factory_obj.dir/build.make CMakeFiles/health_handler_factory_obj.dir/src/request_handler/health_handler_factory.cc.s
 .PHONY : src/request_handler/health_handler_factory.cc.s
 
-src/request_handler/meme_create_handler_factory.o: src/request_handler/meme_create_handler_factory.cc.o
-.PHONY : src/request_handler/meme_create_handler_factory.o
+src/request_handler/meme_handler_factory.o: src/request_handler/meme_handler_factory.cc.o
+.PHONY : src/request_handler/meme_handler_factory.o
 
 # target to build an object file
-src/request_handler/meme_create_handler_factory.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_create_handler_factory_obj.dir/build.make CMakeFiles/meme_create_handler_factory_obj.dir/src/request_handler/meme_create_handler_factory.cc.o
-.PHONY : src/request_handler/meme_create_handler_factory.cc.o
+src/request_handler/meme_handler_factory.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_obj.dir/build.make CMakeFiles/meme_handler_factory_obj.dir/src/request_handler/meme_handler_factory.cc.o
+.PHONY : src/request_handler/meme_handler_factory.cc.o
 
-src/request_handler/meme_create_handler_factory.i: src/request_handler/meme_create_handler_factory.cc.i
-.PHONY : src/request_handler/meme_create_handler_factory.i
+src/request_handler/meme_handler_factory.i: src/request_handler/meme_handler_factory.cc.i
+.PHONY : src/request_handler/meme_handler_factory.i
 
 # target to preprocess a source file
-src/request_handler/meme_create_handler_factory.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_create_handler_factory_obj.dir/build.make CMakeFiles/meme_create_handler_factory_obj.dir/src/request_handler/meme_create_handler_factory.cc.i
-.PHONY : src/request_handler/meme_create_handler_factory.cc.i
+src/request_handler/meme_handler_factory.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_obj.dir/build.make CMakeFiles/meme_handler_factory_obj.dir/src/request_handler/meme_handler_factory.cc.i
+.PHONY : src/request_handler/meme_handler_factory.cc.i
 
-src/request_handler/meme_create_handler_factory.s: src/request_handler/meme_create_handler_factory.cc.s
-.PHONY : src/request_handler/meme_create_handler_factory.s
+src/request_handler/meme_handler_factory.s: src/request_handler/meme_handler_factory.cc.s
+.PHONY : src/request_handler/meme_handler_factory.s
 
 # target to generate assembly for a file
-src/request_handler/meme_create_handler_factory.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_create_handler_factory_obj.dir/build.make CMakeFiles/meme_create_handler_factory_obj.dir/src/request_handler/meme_create_handler_factory.cc.s
-.PHONY : src/request_handler/meme_create_handler_factory.cc.s
+src/request_handler/meme_handler_factory.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_obj.dir/build.make CMakeFiles/meme_handler_factory_obj.dir/src/request_handler/meme_handler_factory.cc.s
+.PHONY : src/request_handler/meme_handler_factory.cc.s
 
 src/request_handler/request_404_handler_factory.o: src/request_handler/request_404_handler_factory.cc.o
 .PHONY : src/request_handler/request_404_handler_factory.o
@@ -1408,29 +1434,29 @@ src/request_handler/request_handler_health.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_health_obj.dir/build.make CMakeFiles/request_handler_health_obj.dir/src/request_handler/request_handler_health.cc.s
 .PHONY : src/request_handler/request_handler_health.cc.s
 
-src/request_handler/request_handler_meme_create.o: src/request_handler/request_handler_meme_create.cc.o
-.PHONY : src/request_handler/request_handler_meme_create.o
+src/request_handler/request_handler_meme.o: src/request_handler/request_handler_meme.cc.o
+.PHONY : src/request_handler/request_handler_meme.o
 
 # target to build an object file
-src/request_handler/request_handler_meme_create.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_create_obj.dir/build.make CMakeFiles/request_handler_meme_create_obj.dir/src/request_handler/request_handler_meme_create.cc.o
-.PHONY : src/request_handler/request_handler_meme_create.cc.o
+src/request_handler/request_handler_meme.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_obj.dir/build.make CMakeFiles/request_handler_meme_obj.dir/src/request_handler/request_handler_meme.cc.o
+.PHONY : src/request_handler/request_handler_meme.cc.o
 
-src/request_handler/request_handler_meme_create.i: src/request_handler/request_handler_meme_create.cc.i
-.PHONY : src/request_handler/request_handler_meme_create.i
+src/request_handler/request_handler_meme.i: src/request_handler/request_handler_meme.cc.i
+.PHONY : src/request_handler/request_handler_meme.i
 
 # target to preprocess a source file
-src/request_handler/request_handler_meme_create.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_create_obj.dir/build.make CMakeFiles/request_handler_meme_create_obj.dir/src/request_handler/request_handler_meme_create.cc.i
-.PHONY : src/request_handler/request_handler_meme_create.cc.i
+src/request_handler/request_handler_meme.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_obj.dir/build.make CMakeFiles/request_handler_meme_obj.dir/src/request_handler/request_handler_meme.cc.i
+.PHONY : src/request_handler/request_handler_meme.cc.i
 
-src/request_handler/request_handler_meme_create.s: src/request_handler/request_handler_meme_create.cc.s
-.PHONY : src/request_handler/request_handler_meme_create.s
+src/request_handler/request_handler_meme.s: src/request_handler/request_handler_meme.cc.s
+.PHONY : src/request_handler/request_handler_meme.s
 
 # target to generate assembly for a file
-src/request_handler/request_handler_meme_create.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_create_obj.dir/build.make CMakeFiles/request_handler_meme_create_obj.dir/src/request_handler/request_handler_meme_create.cc.s
-.PHONY : src/request_handler/request_handler_meme_create.cc.s
+src/request_handler/request_handler_meme.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_obj.dir/build.make CMakeFiles/request_handler_meme_obj.dir/src/request_handler/request_handler_meme.cc.s
+.PHONY : src/request_handler/request_handler_meme.cc.s
 
 src/request_handler/request_handler_sleep.o: src/request_handler/request_handler_sleep.cc.o
 .PHONY : src/request_handler/request_handler_sleep.o
@@ -1747,6 +1773,30 @@ tests/logger_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_test.dir/build.make CMakeFiles/logger_test.dir/tests/logger_test.cc.s
 .PHONY : tests/logger_test.cc.s
 
+tests/meme_handler_factory_test.o: tests/meme_handler_factory_test.cc.o
+.PHONY : tests/meme_handler_factory_test.o
+
+# target to build an object file
+tests/meme_handler_factory_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_test.dir/build.make CMakeFiles/meme_handler_factory_test.dir/tests/meme_handler_factory_test.cc.o
+.PHONY : tests/meme_handler_factory_test.cc.o
+
+tests/meme_handler_factory_test.i: tests/meme_handler_factory_test.cc.i
+.PHONY : tests/meme_handler_factory_test.i
+
+# target to preprocess a source file
+tests/meme_handler_factory_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_test.dir/build.make CMakeFiles/meme_handler_factory_test.dir/tests/meme_handler_factory_test.cc.i
+.PHONY : tests/meme_handler_factory_test.cc.i
+
+tests/meme_handler_factory_test.s: tests/meme_handler_factory_test.cc.s
+.PHONY : tests/meme_handler_factory_test.s
+
+# target to generate assembly for a file
+tests/meme_handler_factory_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/meme_handler_factory_test.dir/build.make CMakeFiles/meme_handler_factory_test.dir/tests/meme_handler_factory_test.cc.s
+.PHONY : tests/meme_handler_factory_test.cc.s
+
 tests/reply_test.o: tests/reply_test.cc.o
 .PHONY : tests/reply_test.o
 
@@ -1914,6 +1964,30 @@ tests/request_handler_health_test.s: tests/request_handler_health_test.cc.s
 tests/request_handler_health_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_health_test.dir/build.make CMakeFiles/request_handler_health_test.dir/tests/request_handler_health_test.cc.s
 .PHONY : tests/request_handler_health_test.cc.s
+
+tests/request_handler_meme_test.o: tests/request_handler_meme_test.cc.o
+.PHONY : tests/request_handler_meme_test.o
+
+# target to build an object file
+tests/request_handler_meme_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_test.dir/build.make CMakeFiles/request_handler_meme_test.dir/tests/request_handler_meme_test.cc.o
+.PHONY : tests/request_handler_meme_test.cc.o
+
+tests/request_handler_meme_test.i: tests/request_handler_meme_test.cc.i
+.PHONY : tests/request_handler_meme_test.i
+
+# target to preprocess a source file
+tests/request_handler_meme_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_test.dir/build.make CMakeFiles/request_handler_meme_test.dir/tests/request_handler_meme_test.cc.i
+.PHONY : tests/request_handler_meme_test.cc.i
+
+tests/request_handler_meme_test.s: tests/request_handler_meme_test.cc.s
+.PHONY : tests/request_handler_meme_test.s
+
+# target to generate assembly for a file
+tests/request_handler_meme_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/request_handler_meme_test.dir/build.make CMakeFiles/request_handler_meme_test.dir/tests/request_handler_meme_test.cc.s
+.PHONY : tests/request_handler_meme_test.cc.s
 
 tests/request_handler_sleep_test.o: tests/request_handler_sleep_test.cc.o
 .PHONY : tests/request_handler_sleep_test.o
@@ -2115,7 +2189,8 @@ help:
 	@echo "... http_lib"
 	@echo "... logger_lib"
 	@echo "... logger_test"
-	@echo "... meme_create_handler_factory_obj"
+	@echo "... meme_handler_factory_obj"
+	@echo "... meme_handler_factory_test"
 	@echo "... reply_lib_test"
 	@echo "... request_404_handler_factory_obj"
 	@echo "... request_404_handler_factory_test"
@@ -2130,7 +2205,8 @@ help:
 	@echo "... request_handler_health_obj"
 	@echo "... request_handler_health_test"
 	@echo "... request_handler_lib"
-	@echo "... request_handler_meme_create_obj"
+	@echo "... request_handler_meme_obj"
+	@echo "... request_handler_meme_test"
 	@echo "... request_handler_sleep_obj"
 	@echo "... request_handler_sleep_test"
 	@echo "... request_handler_static_obj"
@@ -2163,9 +2239,9 @@ help:
 	@echo "... src/request_handler/health_handler_factory.o"
 	@echo "... src/request_handler/health_handler_factory.i"
 	@echo "... src/request_handler/health_handler_factory.s"
-	@echo "... src/request_handler/meme_create_handler_factory.o"
-	@echo "... src/request_handler/meme_create_handler_factory.i"
-	@echo "... src/request_handler/meme_create_handler_factory.s"
+	@echo "... src/request_handler/meme_handler_factory.o"
+	@echo "... src/request_handler/meme_handler_factory.i"
+	@echo "... src/request_handler/meme_handler_factory.s"
 	@echo "... src/request_handler/request_404_handler_factory.o"
 	@echo "... src/request_handler/request_404_handler_factory.i"
 	@echo "... src/request_handler/request_404_handler_factory.s"
@@ -2181,9 +2257,9 @@ help:
 	@echo "... src/request_handler/request_handler_health.o"
 	@echo "... src/request_handler/request_handler_health.i"
 	@echo "... src/request_handler/request_handler_health.s"
-	@echo "... src/request_handler/request_handler_meme_create.o"
-	@echo "... src/request_handler/request_handler_meme_create.i"
-	@echo "... src/request_handler/request_handler_meme_create.s"
+	@echo "... src/request_handler/request_handler_meme.o"
+	@echo "... src/request_handler/request_handler_meme.i"
+	@echo "... src/request_handler/request_handler_meme.s"
 	@echo "... src/request_handler/request_handler_sleep.o"
 	@echo "... src/request_handler/request_handler_sleep.i"
 	@echo "... src/request_handler/request_handler_sleep.s"
@@ -2223,6 +2299,9 @@ help:
 	@echo "... tests/logger_test.o"
 	@echo "... tests/logger_test.i"
 	@echo "... tests/logger_test.s"
+	@echo "... tests/meme_handler_factory_test.o"
+	@echo "... tests/meme_handler_factory_test.i"
+	@echo "... tests/meme_handler_factory_test.s"
 	@echo "... tests/reply_test.o"
 	@echo "... tests/reply_test.i"
 	@echo "... tests/reply_test.s"
@@ -2244,6 +2323,9 @@ help:
 	@echo "... tests/request_handler_health_test.o"
 	@echo "... tests/request_handler_health_test.i"
 	@echo "... tests/request_handler_health_test.s"
+	@echo "... tests/request_handler_meme_test.o"
+	@echo "... tests/request_handler_meme_test.i"
+	@echo "... tests/request_handler_meme_test.s"
 	@echo "... tests/request_handler_sleep_test.o"
 	@echo "... tests/request_handler_sleep_test.i"
 	@echo "... tests/request_handler_sleep_test.s"

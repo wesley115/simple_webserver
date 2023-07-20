@@ -1498,8 +1498,24 @@ CMakeFiles/request_handler_dispatcher_obj.dir/src/request_handler_dispatcher.cc.
  /usr/src/projects/include/request_handler/request_handler_health.h \
  /usr/src/projects/src/../include/request_handler/sleep_handler_factory.h \
  /usr/src/projects/include/request_handler/request_handler_sleep.h \
- /usr/src/projects/src/../include/request_handler/meme_create_handler_factory.h \
- /usr/src/projects/include/request_handler/request_handler_meme_create.h \
+ /usr/src/projects/src/../include/request_handler/meme_handler_factory.h \
+ /usr/src/projects/include/request_handler/request_handler_meme.h \
+ /usr/include/c++/11/regex /usr/include/c++/11/bitset \
+ /usr/include/c++/11/stack /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc \
+ /usr/include/c++/11/shared_mutex \
  /usr/src/projects/src/../include/logger.h /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/awaitable.hpp \
  /usr/include/boost/asio/basic_datagram_socket.hpp \

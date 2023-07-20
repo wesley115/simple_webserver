@@ -39,14 +39,14 @@
 /usr/src/projects/build/CMakeFiles/crud_handler_factory_obj.dir
 /usr/src/projects/build/CMakeFiles/sleep_handler_factory_obj.dir
 /usr/src/projects/build/CMakeFiles/health_handler_factory_obj.dir
-/usr/src/projects/build/CMakeFiles/meme_create_handler_factory_obj.dir
+/usr/src/projects/build/CMakeFiles/meme_handler_factory_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_echo_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_static_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_404_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_crud_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_health_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_sleep_obj.dir
-/usr/src/projects/build/CMakeFiles/request_handler_meme_create_obj.dir
+/usr/src/projects/build/CMakeFiles/request_handler_meme_obj.dir
 /usr/src/projects/build/CMakeFiles/request_handler_lib.dir
 /usr/src/projects/build/CMakeFiles/server.dir
 /usr/src/projects/build/CMakeFiles/sleep_handler_factory_test.dir
@@ -54,6 +54,7 @@
 /usr/src/projects/build/CMakeFiles/request_404_handler_factory_test.dir
 /usr/src/projects/build/CMakeFiles/echo_handler_factory_test.dir
 /usr/src/projects/build/CMakeFiles/static_handler_factory_test.dir
+/usr/src/projects/build/CMakeFiles/meme_handler_factory_test.dir
 /usr/src/projects/build/CMakeFiles/request_handler_sleep_test.dir
 /usr/src/projects/build/CMakeFiles/request_handler_404_test.dir
 /usr/src/projects/build/CMakeFiles/request_handler_echo_test.dir
@@ -62,6 +63,7 @@
 /usr/src/projects/build/CMakeFiles/request_handler_crud_test.dir
 /usr/src/projects/build/CMakeFiles/crud_handler_factory_test.dir
 /usr/src/projects/build/CMakeFiles/request_handler_health_test.dir
+/usr/src/projects/build/CMakeFiles/request_handler_meme_test.dir
 /usr/src/projects/build/CMakeFiles/reply_lib_test.dir
 /usr/src/projects/build/CMakeFiles/server_lib_test.dir
 /usr/src/projects/build/CMakeFiles/session_lib_test.dir
